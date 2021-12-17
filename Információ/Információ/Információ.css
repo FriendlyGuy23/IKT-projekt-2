@@ -1,0 +1,41 @@
+:root{
+--clr-accent-400: rgb(13, 103, 181)
+}
+
+.class{
+    background-color: var(--clr-accent-400) ;
+    border-radius: 3rem;
+    color: black;
+    border-radius: 0-25em;
+    padding: 0.1em 0.75em;
+}
+.class:hover,
+.class:focus{
+    background-color: black;
+    color:var(--clr-accent-400) ;
+}
+.telefon{
+    
+    
+    color: black;
+     
+    
+    
+}
+.telefon:hover,
+.telefon:focus{
+   
+    color:red ;
+}
+.tábla{
+    border: 2px solid var(--clr-accent-400);
+    
+  }
+.text{
+      text-align: center;
+  }
+.szöveg{
+    font-style: oblique;
+}
+
+ 
