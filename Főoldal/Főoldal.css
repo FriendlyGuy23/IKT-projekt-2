@@ -1,50 +1,77 @@
-body{
+body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background: url('../Képek/tech.jpg')
 }
-
-.wrapper{
+* {
+    box-sizing: border-box
+}
+.wrapper {
     max-width: 800px;
-    margin: 40px auto
+    margin: 50px auto
 }
-header{
-    height: 308px;
+header {
+    background: url(../Képek/Info.jpg) no-repeat;
+    height: 300px;
+    position: relative
 }
-nav{
-    background: rgba(190,0,0,.8);
+nav {
+    background: rgba(1, 47, 253, 0.8);
     position: absolute;
     bottom: 0;
     left: 0;
+    right: 0
 }
-nav::after{
+nav::after {
     content:'';
     clear: both;
-    display: table;
+    display: table
 }
-nav a{
+nav a {
     color:white;
     text-decoration: none;
     padding: 20px;
-    display: block;
+    display: block
 }
-nav a :hover{
+nav a:hover {
     background: rgba(0,0,0,.8)
 }
-nav ul{
+nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0
 }
-nav ul li{
-    float: left;
+nav>ul>li {
+    float: left
 }
 main{
     background: white;
-    padding: 40px;
+    padding: 40px
 }
-main p{
-    line-height: 1.5;
+main p {
+    line-height: 1.5
 }
-main h1{
-    margin-top: 0;
+main h1 {
+    margin-top: 0
+}
+nav .submenu {
+    position: absolute;
+    display: none;
+    width: 110px;
+}
+nav .submenu li {
+    float: none 
+}
+nav .submenu a {
+    background: rgba(1, 47, 253, 0.8);
+    padding: 10px 15px
+}
+nav .submenu a:hover {
+    background: black;
+}
+nav .has-submenu {
+        position: relative;
+}
+nav .has-submenu:hover .submenu {
+    display: block;
 }
