@@ -7,18 +7,18 @@ body {
     box-sizing: border-box
 }
 .wrapper {
-    max-width: 800px;
-    margin: 50px auto
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 0 200px rgba(255,255,255,.9);
 }
 header {
     background: url(../Képek/Info.jpg) no-repeat;
-    height: 300px;
-    position: relative
+    height: 400px;
 }
 nav {
     background: rgba(1, 47, 253, 0.8);
-    position: absolute;
-    bottom: 0;
+    position: sticky;
+    top: 0;
     left: 0;
     right: 0
 }
@@ -72,6 +72,79 @@ nav .submenu a:hover {
 nav .has-submenu {
         position: relative;
 }
+nav .has-submenu::after {
+     content: '⯆' ;
+     color: white;
+     position: absolute;
+     top: 16px;
+     right: 2px
+}
 nav .has-submenu:hover .submenu {
     display: block;
+}
+
+.cookie-accept{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.cookie-accept button{
+    background: yellow;
+    color: black;
+    border: 0;
+    margin-left: 10px;
+    margin: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.cookie-accept button:hover{
+    background: white;
+}
+#kép{
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 450px
+}
+#fej{
+    color: white;
+    margin-left: 510px
+}
+#fej2{
+    color: white;
+    margin-left: 485px
+}
+#egycím{
+    margin-left: 300px
+}
+#ps5{
+    margin-left: 350px
+}
+#legjobb{
+    margin-left: 90px
+}
+#futár{
+    margin-left: 400px
+}
+#fizetés{
+    margin-left: 300px
+}
+#olcsó{
+    margin-left: 20px
+}
+#ár{
+    font-size: 10px;
+    text-align: center;
+}
+#fold{
+    text-align: center;
+}
+#z{
+    text-align: center;
+    font-size: 15px;
 }
