@@ -83,28 +83,6 @@ nav .has-submenu:hover .submenu {
     display: block;
 }
 
-.cookie-accept{
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0,0,0,.5);
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-.cookie-accept button{
-    background: yellow;
-    color: black;
-    border: 0;
-    margin-left: 10px;
-    margin: 5px 10px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.cookie-accept button:hover{
-    background: white;
-}
 #kép{
     width: 300px;
     height: 200px;
@@ -147,4 +125,10 @@ nav .has-submenu:hover .submenu {
 #z{
     text-align: center;
     font-size: 15px;
+}
+#kép1{
+    margin-left: 160px
+}
+#kép2{
+    margin-left: 160px
 }
