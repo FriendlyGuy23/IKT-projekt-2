@@ -135,3 +135,20 @@ nav .has-submenu:hover .submenu {
 #kép2{
     margin-left: 160px
 }
+#módok{
+    margin-left: 400px;
+}
+#kártyák{
+    margin-bottom: -21px;
+}
+#áruházak{
+    text-align: center;
+    font-weight: bolder;
+}
+.áruházak{
+    text-align: center;
+    color: blue;
+}
+.influence{
+    text-align: center;
+}
