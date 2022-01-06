@@ -12,7 +12,6 @@ body {
     box-shadow: 0 0 200px rgba(255,255,255,.9);
 }
 header {
-    background: url(../Képek/IMG_3550-removebg-preview.png) no-repeat;
     background-color: rgb(10, 0, 143);
     background-position: bottom;
     height: 750px;
@@ -89,7 +88,6 @@ nav .has-submenu:hover .submenu {
 #kép{
     width: 300px;
     height: 200px;
-    position: sticky;
     margin-left: 450px;
 }
 #fej{
@@ -151,4 +149,7 @@ nav .has-submenu:hover .submenu {
 }
 .influence{
     text-align: center;
+}
+#yolo{
+    margin-left: 300px
 }
